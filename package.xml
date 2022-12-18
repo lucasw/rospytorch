@@ -1,0 +1,19 @@
+<package format="2">
+  <name>rospytorch</name>
+  <version>0.0.1</version>
+  <description>
+    Demonstrate pytorch multiprocessing with image data received in rospy, modify and republish out
+  </description>
+  <maintainer email="wsacul@gmail.com">Lucas Walter</maintainer>
+  <license>BSD 3-Clause License</license>
+  <url>http://github.com/lucasw/rospytorch</url>
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roslint</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+</package>
